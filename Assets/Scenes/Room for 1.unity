@@ -1003,6 +1003,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 546107907}
     m_Modifications:
+    - target: {fileID: 2876066282361332837, guid: 0d4928d60f409034685e76b38e3137c5,
+        type: 3}
+      propertyPath: m_Text
+      value: LeaveButton
+      objectReference: {fileID: 0}
     - target: {fileID: 2876066282959571020, guid: 0d4928d60f409034685e76b38e3137c5,
         type: 3}
       propertyPath: m_Pivot.x

@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 529174671582706659}
   - component: {fileID: 6778568178424650116}
   - component: {fileID: 613520454591440212}
+  - component: {fileID: 1621931190}
   m_Layer: 0
   m_Name: My Robot Kyle
   m_TagString: Untagged
@@ -114,6 +115,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63e288323dab44d097f1b58382d951c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  directionDampTime: 0.25
+--- !u!114 &1621931190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529174671573338147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb3ac81f5c334200bc596e78e91953d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 7
+  height: 3
+  followOnStart: 1
+  centerOffset: {x: 0, y: 2, z: 0}
+  smoothSpeed: 0.125
 --- !u!1 &529174671573338149
 GameObject:
   m_ObjectHideFlags: 0

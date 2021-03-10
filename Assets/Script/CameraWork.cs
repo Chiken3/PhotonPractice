@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Photon.Pun.Demo.PunBasics
+namespace Com.MyCompany.MyGame
 {
     
 

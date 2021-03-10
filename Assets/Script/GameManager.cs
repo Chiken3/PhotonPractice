@@ -68,5 +68,19 @@ namespace Com.MyCompany.MyGame
 
         #endregion
 
+
+
+
+        #region Public Field
+
+        public static GameManager Instance;
+
+        #endregion
+
+
+        void Start()
+        {
+            Instance = this;
+        }
     }
 }
